@@ -27,23 +27,23 @@ SPECTATOR_API_KEY = "Moe2TxQzUYHab47hzXiWEJ"
 SPECTATOR_API_URL = "https://api.spectator.earth/acquisition-plan/"
 
 # PostgreSQL Connection Details (using direct variables as requested)
-PG_DBNAME = "aq_plan"
-PG_USER = "gi.joke"
-PG_PASSWORD = "Tawatcha1@2021"
-PG_HOST = "172.27.154.25"
-PG_PORT = "5432"
+PG_DBNAME = "*******"
+PG_USER = "*******"
+PG_PASSWORD = "*******"
+PG_HOST = "*******"
+PG_PORT = "*******"
 
 # Target table and satellite names
-TABLE_NAME = "acquisition.sentinel1"
-SATELLITES_TO_FETCH = "Sentinel-1A,Sentinel-1C" # As a comma-separated string for the API
-SATELLITES_FOR_DELETION = ["Sentinel-1A", "Sentinel-1C"]  # Specific satellite for deletion logic
+TABLE_NAME = "*******"
+SATELLITES_TO_FETCH = "*******" # As a comma-separated string for the API
+SATELLITES_FOR_DELETION = "*******"  # Specific satellite for deletion logic
 
 # MinIO Staging Configuration
-MINIO_URL = "172.27.127.90:9000" # Use the same MinIO URL as your previous DAG
-MINIO_ACCESS_KEY = "08RJAwKtz8QM8hRlVLY2" # Your access key
-MINIO_SECRET_KEY = "kunOgQyMLnM6tqq7pxUY8jDMWuvKuuW04BA7Nt0j" # Your secret key
-STAGING_BUCKET_NAME = "gi-disaster" # A new bucket specifically for staging data
-STAGING_PREFIX = "sentinel1_acquisition/"
+MINIO_URL = "*******" # Use the same MinIO URL as your previous DAG
+MINIO_ACCESS_KEY = "*******" # Your access key
+MINIO_SECRET_KEY = "*******" # Your secret key
+STAGING_BUCKET_NAME = "*******" # A new bucket specifically for staging data
+STAGING_PREFIX = "*******"
 
 # Bounding box for Thailand (WGS84 - EPSG:4326)
 THAILAND_BBOX = box(97.343807146, 5.6128510107, 105.6368118525, 20.464833874)
@@ -72,9 +72,6 @@ def _get_minio_client():
 # ====== ETL TASKS ======
 
 def _delete_old_data(**kwargs):
-    # ดึง data_interval_start ซึ่งเป็นวันเริ่มต้นของการรัน DAG นี้
-    # และใช้เป็นจุดเริ่มต้นสำหรับการลบข้อมูล (ตั้งแต่วันนี้เป็นต้นไป)
-    # เช่น ถ้า DAG รันวันที่ 4 ก.ค. 2025, delete_from_date จะเป็น 2025-07-04 00:00:00 TH
     delete_from_date = kwargs['data_interval_start'].in_timezone(THAILAND_TIMEZONE).replace(hour=0, minute=0, second=0, microsecond=0)
     
     conn = None
@@ -83,13 +80,10 @@ def _delete_old_data(**kwargs):
         conn = _get_pg_connection()
         cursor = conn.cursor()
         
-        # ใช้ sql.SQL เพื่อสร้างส่วนของ IN clause อย่างปลอดภัยและถูกต้อง
         in_clause = sql.SQL("IN ({})").format(
             sql.SQL(', ').join(map(sql.Literal, SATELLITES_FOR_DELETION))
         )
-        
-        # สร้าง delete_query เพื่อลบข้อมูลตั้งแต่วันที่ delete_from_date เป็นต้นไป (>=)
-        # สำหรับดาวเทียมที่ระบุใน SATELLITES_FOR_DELETION
+
         delete_query = sql.SQL('''
             DELETE FROM {}
             WHERE begin_time >= %s AND satellite_name {};
@@ -98,10 +92,8 @@ def _delete_old_data(**kwargs):
             in_clause
         )
         
-        # Log the actual query for debugging
         log.info(f"Executing delete query: {cursor.mogrify(delete_query, (delete_from_date,)).decode('utf-8')}")
 
-        # ส่งพารามิเตอร์: วันที่เริ่มต้นการลบ
         cursor.execute(delete_query, (delete_from_date,))
         
         conn.commit()
@@ -118,20 +110,12 @@ def _delete_old_data(**kwargs):
             conn.close()
 
 def _extract_and_transform_data(**kwargs):
-    # ดึง data_interval_start ซึ่งเป็นวันเริ่มต้นของการรัน DAG นี้ (เช่น 4 ก.ค. 2025)
-    # และใช้เป็นจุดเริ่มต้นสำหรับการวนลูปดึงข้อมูล
     start_date_for_fetch = kwargs['data_interval_start'].in_timezone(THAILAND_TIMEZONE).replace(hour=0, minute=0, second=0, microsecond=0)
     
     all_filtered_records = []
     coordinates_set = set()
 
     for i in range(11): # วนลูป 11 ครั้ง (i = 0 ถึง 10)
-        # target_date จะเริ่มจาก start_date_for_fetch (วันนี้) ไปจนถึง 10 วันถัดไป
-        # ตัวอย่าง: ถ้า start_date_for_fetch คือ 4 ก.ค.
-        # i=0 -> 4 ก.ค.
-        # i=1 -> 5 ก.ค.
-        # ...
-        # i=10 -> 14 ก.ค.
         target_date = start_date_for_fetch + timedelta(days=i)
         api_date_str = target_date.strftime("%Y-%m-%dT00:00:00")
 
@@ -282,17 +266,12 @@ def _load_data_to_postgres(**kwargs):
         conn = _get_pg_connection()
         cursor = conn.cursor()
 
-        # 1. ระบุคอลัมน์ทั้งหมดที่จะแทรก
         columns = [
             'type', 'coordinates', 'swath', 'datatake_id', 'polarisation',
             'orbit_absolute', 'orbit_relative', 'begin_time', 'begin_time_nottimezone',
             'end_time', 'end_time_nottimezone', 'satellite', 'satellite_name','geom' # geom เป็นคอลัมน์ PostGIS
         ]
 
-        # 2. สร้าง Query: นี่คือสิ่งที่ execute_values คาดหวัง
-        #    - ใช้ sql.Identifier เพื่อระบุชื่อตารางและคอลัมน์อย่างปลอดภัย
-        #    - ในส่วน VALUES ใช้เพียง '%s' ตัวเดียว เพราะ execute_values จะสร้าง
-        #      วงเล็บและ %s ภายในวงเล็บให้เองตามจำนวนคอลัมน์ใน data_to_insert
         insert_query = sql.SQL('''
             INSERT INTO {} ({})
             VALUES %s
@@ -300,30 +279,18 @@ def _load_data_to_postgres(**kwargs):
             sql.Identifier(TABLE_NAME.split('.')[0], TABLE_NAME.split('.')[1]),
             sql.SQL(', ').join(map(sql.Identifier, columns))
         )
-        
-        # 3. เตรียม data_to_insert:
-        #    - สำหรับ geom_column: แปลง GeoJSON string ให้เป็น SQL Expression โดยใช้ AsIs
-        #      ต้องแน่ใจว่า GeoJSON string ถูก Escape อย่างถูกต้องสำหรับ SQL literal
-        #    - เพิ่มค่าสำหรับ satellite_name โดยใช้ record.get('satellite')
+    
         data_to_insert = []
         for record in transformed_records:
             geojson_for_geom = record.get('coordinates')
             
-            # --- สำคัญ: การจัดการ GeoJSON string สำหรับ SQL literal ---
-            # เราจำเป็นต้อง Escape single quotes ภายใน GeoJSON string ด้วยการเปลี่ยนเป็นสองตัว (' -> '')
-            # เพื่อให้ ST_GeomFromGeoJSON('%s') ทำงานได้อย่างถูกต้องเมื่อ %s ถูกแทนที่ด้วย string นั้น
-            # json.dumps โดยปกติจะจัดการเรื่องนี้ให้แล้วสำหรับ JSON string แต่เพื่อความชัวร์
-            # หากพบปัญหาอีก ให้ตรวจสอบว่า GeoJSON string ที่ส่งไปมี single quote ไหม และ Escape หรือไม่
-            
-            # สร้าง SQL expression string สำหรับ geom โดยตรง
             geom_sql_expression = f"ST_SetSRID(ST_GeomFromGeoJSON('{geojson_for_geom.replace("'", "''")}'), 4326)"
             
-            # ใช้ AsIs เพื่อให้ psycopg2 ส่ง string นี้เป็น SQL expression
             geom_as_is = AsIs(geom_sql_expression)
 
             data_to_insert.append((
                 record.get('type'),
-                record.get('coordinates'), # สำหรับคอลัมน์ 'coordinates' (text/jsonb)
+                record.get('coordinates'),
                 record.get('swath'),
                 record.get('datatake_id'),
                 record.get('polarisation'),
@@ -334,13 +301,12 @@ def _load_data_to_postgres(**kwargs):
                 datetime.fromisoformat(record['end_time']) if record.get('end_time') else None,
                 datetime.fromisoformat(record['end_time_nottimezone']) if record.get('end_time_nottimezone') else None,
                 record.get('satellite'),
-                record.get('satellite'), # <--- เพิ่มค่าสำหรับ satellite_name ที่นี่
-                geom_as_is # สำหรับคอลัมน์ 'geom' (PostGIS geometry)
+                record.get('satellite'), 
+                geom_as_is 
             ))
 
         log.info(f"กำลังแทรก {len(data_to_insert)} รายการเข้าสู่ {TABLE_NAME}...")
         
-        # 4. เรียกใช้ execute_values ด้วย insert_query ที่ถูกต้อง
         execute_values(cursor, insert_query, data_to_insert, page_size=1000)
         
         conn.commit()
@@ -358,23 +324,10 @@ def _load_data_to_postgres(**kwargs):
             conn.close()
         if os.path.exists(temp_download_path):
             os.remove(temp_download_path)
-        
-        # Optional: Clean up staging file from MinIO
-        # try:
-        #     if staging_file_key:
-        #         minio_client.remove_object(STAGING_BUCKET_NAME, staging_file_key)
-        #         log.info(f"ลบไฟล์ Staging '{staging_file_key}' ออกจาก MinIO แล้ว.")
-        # except Exception as e:
-        #     log.warning(f"⚠️ ไม่สามารถลบไฟล์ Staging '{staging_file_key}' ออกจาก MinIO ได้: {e}")
-
-
-# ====== AIRFLOW DAG DEFINITION ======
 
 with DAG(
     dag_id="import-sentinel1A-1C-from-api-taskflow",
     schedule="0 7 * * *", 
-    # start_date=pendulum.datetime(2023, 1, 1, tz="UTC"),
-    # start_date=pendulum.datetime(2025, 7, 4, tz="Asia/Bangkok"),
     start_date=pendulum.datetime(2025, 7, 10, tz="Asia/Bangkok"), 
     catchup=False,
     tags=["api", "spectator_earth", "sentinel1", "etl", "postgresql", "minio", "geospatial"],
