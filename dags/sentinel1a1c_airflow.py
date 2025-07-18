@@ -7,24 +7,24 @@ from datetime import datetime, timedelta
 import json
 import pytz
 from shapely.geometry import shape, box
-from psycopg2.extras import Json # Keep this for reference, not directly used for geometry type here
+from psycopg2.extras import Json 
 from minio import Minio
 
-from psycopg2 import sql # Import sql module for safer SQL string composition
-from psycopg2.extras import execute_values # Import execute_values explicitly
-from psycopg2.extensions import AsIs # <--- เพิ่มการ import นี้
+from psycopg2 import sql 
+from psycopg2.extras import execute_values 
+from psycopg2.extensions import AsIs 
 
 from airflow.models.dag import DAG
 from airflow.operators.python import PythonOperator
-from airflow.utils.log.logging_mixin import LoggingMixin # For consistent logging
+from airflow.utils.log.logging_mixin import LoggingMixin 
 
-# Configure logging for the DAG
+
 log = LoggingMixin().log
 
 # ====== CONFIGURATION ======
 # Spectator Earth API
-SPECTATOR_API_KEY = "Moe2TxQzUYHab47hzXiWEJ"
-SPECTATOR_API_URL = "https://api.spectator.earth/acquisition-plan/"
+SPECTATOR_API_KEY = "SPECTATOR_API_KEY"
+SPECTATOR_API_URL = "SPECTATOR_API_URL"
 
 # PostgreSQL Connection Details (using direct variables as requested)
 PG_DBNAME = "*******"
@@ -35,8 +35,8 @@ PG_PORT = "*******"
 
 # Target table and satellite names
 TABLE_NAME = "*******"
-SATELLITES_TO_FETCH = "*******" # As a comma-separated string for the API
-SATELLITES_FOR_DELETION = "*******"  # Specific satellite for deletion logic
+SATELLITES_TO_FETCH = "*******" 
+SATELLITES_FOR_DELETION = "*******" 
 
 # MinIO Staging Configuration
 MINIO_URL = "*******" # Use the same MinIO URL as your previous DAG
