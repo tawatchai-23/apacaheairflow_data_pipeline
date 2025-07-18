@@ -1,0 +1,52 @@
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: airflow-worker-template
+# spec:
+#   containers:
+#     - name: base
+#       image: harbor.gistda.or.th/registry/datapipeline/main:9c50070e
+#       imagePullPolicy: Always
+#   imagePullSecrets:
+#     - name: gistda-habor
+
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: airflow-task-pod
+# spec:
+#   containers:
+#     - name: base
+#       image: harbor.gistda.or.th/registry/datapipeline/main:9c50070e
+#       volumeMounts:
+#         - name: tmp
+#           mountPath: /tmp
+#   imagePullSecrets:
+#     - name: gistda-habor
+#   volumes:
+#     - name: tmp
+#       emptyDir: {}
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: airflow-base
+spec:
+  containers:
+    - name: base
+      image: harbor.gistda.or.th/registry/datapipeline/main:f4f37c82
+      imagePullPolicy: Always
+      env:
+        - name: AIRFLOW__CORE__EXECUTOR
+          value: KubernetesExecutor
+        - name: AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION
+          value: "false"
+      volumeMounts:
+        - name: logs
+          mountPath: /opt/airflow/logs
+  restartPolicy: Never
+  imagePullSecrets:
+    - name: gistda-habor
+  volumes:
+    - name: logs
+      emptyDir: {}

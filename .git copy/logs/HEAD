@@ -1,0 +1,252 @@
+0000000000000000000000000000000000000000 dfa79a8175911b2927f6f79b7ea8efa0ea04a424 Tawatchai Pitak <jokjokjok00720@gmail.com> 1747969998 +0700	clone: from https://gitlab.gistda.or.th/tawatchai/datapipeline.git
+dfa79a8175911b2927f6f79b7ea8efa0ea04a424 3eb56370e24e05acf9b86e5e7eabe0ded9a84180 Tawatchai Pitak <jokjokjok00720@gmail.com> 1747970134 +0700	commit: CREATE: new airflow for all data
+3eb56370e24e05acf9b86e5e7eabe0ded9a84180 af856267d3ee4a3b19d2c042b0e875dd65676c8d Tawatchai Pitak <jokjokjok00720@gmail.com> 1747970247 +0700	commit: CREATE: new weather_api_dag.py
+af856267d3ee4a3b19d2c042b0e875dd65676c8d 4ed131326cdbab647d6116d8db743dd65dcbd6fb Tawatchai Pitak <jokjokjok00720@gmail.com> 1747975483 +0700	commit: CREATE: airflow-metadata.yaml from docker-compose.yml
+4ed131326cdbab647d6116d8db743dd65dcbd6fb 64004c1cd36152a565662541bca7c786af9bdeee Tawatchai Pitak <jokjokjok00720@gmail.com> 1747975836 +0700	commit: CREATE: .gitlab-ci.yml
+64004c1cd36152a565662541bca7c786af9bdeee dac57b706c2a02397b6d3bfa34f3467778843aee Tawatchai Pitak <jokjokjok00720@gmail.com> 1747975917 +0700	commit: EDIT: .gitlab-ci.yml
+dac57b706c2a02397b6d3bfa34f3467778843aee a9d1d5547c79c5157fa229b15bc0c7783bdc8c75 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748250681 +0700	commit: EDIT: gitlab
+a9d1d5547c79c5157fa229b15bc0c7783bdc8c75 cad8ee6046377dcfb9ab8cb1b8b53133805da189 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748250783 +0700	commit: EDIT: dockerfile
+cad8ee6046377dcfb9ab8cb1b8b53133805da189 2cab4e4df0a2b676fbd33e9c4774fdd1daf30851 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748250874 +0700	commit: EDIT: dockerfile
+2cab4e4df0a2b676fbd33e9c4774fdd1daf30851 6e44a59c92ab55126d4b729dd1d401ed3310cc5d Tawatchai Pitak <jokjokjok00720@gmail.com> 1748327376 +0700	commit: EDIT:
+6e44a59c92ab55126d4b729dd1d401ed3310cc5d 4f4be3980764e62a8d0dbccd85ffee15a4f23b34 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748327483 +0700	commit: EDIT:
+4f4be3980764e62a8d0dbccd85ffee15a4f23b34 ca49c49d2ebae7786518cac27773197fafe378b8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748327606 +0700	commit: EDIT:
+ca49c49d2ebae7786518cac27773197fafe378b8 4d6347ec52495be94bc273f5d0c310d4c5a6b5b5 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748329838 +0700	commit: EDIT:
+4d6347ec52495be94bc273f5d0c310d4c5a6b5b5 50fbbd30151bdf97e1728720a2f86f7102853751 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748330482 +0700	commit: EDIT:
+50fbbd30151bdf97e1728720a2f86f7102853751 45f6eb47de6f5bd864eaa4919d0cfc0d3c064be3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748332083 +0700	commit: EDIT:
+45f6eb47de6f5bd864eaa4919d0cfc0d3c064be3 dcbbfff660a1119beb727fe44c7748d57d26ffb3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748334828 +0700	commit: EDIT:
+dcbbfff660a1119beb727fe44c7748d57d26ffb3 038fbcd2407e8c8bec14645d8db2f69afae76aba Tawatchai Pitak <jokjokjok00720@gmail.com> 1748335250 +0700	commit: EDIT:
+038fbcd2407e8c8bec14645d8db2f69afae76aba 47cc4d51bb04d874b8da44fe7de2527d3f0d4db1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748335682 +0700	commit: EDIT:
+47cc4d51bb04d874b8da44fe7de2527d3f0d4db1 594834cf9ab06bd47254d12bc39850fdc9828a72 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748335781 +0700	commit: EDIT:
+594834cf9ab06bd47254d12bc39850fdc9828a72 445b2cf2d22d460a90093a45cae46cb594b46299 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748336612 +0700	commit: EDIT:
+445b2cf2d22d460a90093a45cae46cb594b46299 01aaee28572063b5fa421d82ad52e830fe224259 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748338119 +0700	commit: EDIT:
+01aaee28572063b5fa421d82ad52e830fe224259 6eb6efe1c9ba2ada92ae579d5703d6857019e980 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748485111 +0700	commit: DELETE: file
+6eb6efe1c9ba2ada92ae579d5703d6857019e980 1d9232dc3f2d15f59176863bec536116f37f68aa Tawatchai Pitak <jokjokjok00720@gmail.com> 1748509171 +0700	commit: Modified: edit config in values.yaml
+1d9232dc3f2d15f59176863bec536116f37f68aa 0db0d7c6915414acd81cf52c11fefbea00ab0877 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748509261 +0700	commit: Delete: Dockerfile
+0db0d7c6915414acd81cf52c11fefbea00ab0877 43273c1bccbac1b622882f8201b9da7d6439184b Tawatchai Pitak <jokjokjok00720@gmail.com> 1748509338 +0700	commit: Modified: comment all data
+43273c1bccbac1b622882f8201b9da7d6439184b 8f88f55b5e4ceab6d7d1b8f86b4a52cb3fbd3a98 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748509504 +0700	commit: New file: create .gitignore file
+8f88f55b5e4ceab6d7d1b8f86b4a52cb3fbd3a98 d97a1685271a071fde35ebce7f003a41f725c17c Tawatchai Pitak <jokjokjok00720@gmail.com> 1748509555 +0700	pull: Fast-forward
+d97a1685271a071fde35ebce7f003a41f725c17c a4caff2f78e6d772c686cdc04e627fc9ed44fb2d Tawatchai Pitak <jokjokjok00720@gmail.com> 1748828849 +0700	commit: test dag
+a4caff2f78e6d772c686cdc04e627fc9ed44fb2d c7ff73736bec40beb6332bd54332849132289269 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748834362 +0700	commit: CREATE: new dags for weather today
+c7ff73736bec40beb6332bd54332849132289269 151fc642b5f06f391c39509710be20b8e2b3a93e Tawatchai Pitak <jokjokjok00720@gmail.com> 1748834547 +0700	commit: CREATE: new dags for weather today
+151fc642b5f06f391c39509710be20b8e2b3a93e 84ba2b570f36dec7b680408e78d84f3c738044e5 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748834633 +0700	commit: CREATE: new dags for weather today
+84ba2b570f36dec7b680408e78d84f3c738044e5 cf86a4ca3875ee533b9a74fdf6ca3e0582ed7b8e Tawatchai Pitak <jokjokjok00720@gmail.com> 1748835575 +0700	commit: CREATE: new dags for weather today
+cf86a4ca3875ee533b9a74fdf6ca3e0582ed7b8e 4db975f24aef4974c44529dffbd3bdd51fd3ea9c Tawatchai Pitak <jokjokjok00720@gmail.com> 1748835687 +0700	commit: CREATE: new dags for weather today
+4db975f24aef4974c44529dffbd3bdd51fd3ea9c 38f3e4855115858a06edf71847824dcc2b20c458 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748845712 +0700	commit: CREATE: new dags for weather stations dialy
+38f3e4855115858a06edf71847824dcc2b20c458 645a3bdae7affd44fdd925b9b88b06529ea46e89 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748845790 +0700	commit: DELETE: test dag
+645a3bdae7affd44fdd925b9b88b06529ea46e89 abf96ad7a3affc5003494d83ed1344a1cc2ae75c Tawatchai Pitak <jokjokjok00720@gmail.com> 1748846033 +0700	commit: CREATE: daily weather staions dag
+abf96ad7a3affc5003494d83ed1344a1cc2ae75c 4e0d60c6aa60ca76fa2cdc24569cd9a9ab086bc8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748846117 +0700	commit: CREATE: daily weather stations dag
+4e0d60c6aa60ca76fa2cdc24569cd9a9ab086bc8 19e669d391e7a3cfb0cc7e9ef2e144ab3c9352d1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748849091 +0700	commit: CREATE: new rainregions weather dag
+19e669d391e7a3cfb0cc7e9ef2e144ab3c9352d1 b93a4eac3fedfa804ab44b28996dc2021b360aab Tawatchai Pitak <jokjokjok00720@gmail.com> 1748849217 +0700	commit: EDIT: dag name
+b93a4eac3fedfa804ab44b28996dc2021b360aab 111c713999f6160228c8a8f35554d4f772e824c0 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748849443 +0700	commit: EDIT: table name for import data
+111c713999f6160228c8a8f35554d4f772e824c0 2a6a8a5dcda685435a8c8f7fcd08f00cbf824290 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748849493 +0700	pull: Merge made by the 'ort' strategy.
+2a6a8a5dcda685435a8c8f7fcd08f00cbf824290 326fb3817977d81c295410a13ff0c54c1991b4c1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748850567 +0700	commit: CREATE: new weather3hours dag
+326fb3817977d81c295410a13ff0c54c1991b4c1 0d0b96d2847e869fef8944f7642e4011a2bdaf86 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748850812 +0700	commit: EDIT: name dag
+0d0b96d2847e869fef8944f7642e4011a2bdaf86 633476303bf73a5c336658e889d05e353213091c Tawatchai Pitak <jokjokjok00720@gmail.com> 1748852646 +0700	commit: EDIT: ('') to ()
+633476303bf73a5c336658e889d05e353213091c 85cf381980f8e09b7cdcee1efab3436f34e53eb6 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748855527 +0700	commit: MODIFY: create discord_alert for alert when failed to run dag
+85cf381980f8e09b7cdcee1efab3436f34e53eb6 59f4407981aa9af6eebafba1866bcb6394438b50 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748915800 +0700	commit: EDIT: add stast task on rainregions.py
+59f4407981aa9af6eebafba1866bcb6394438b50 43e3543932cfc9d91407937cacdfc93f58f2ccd3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748915912 +0700	commit: EDIT: time for start dag
+43e3543932cfc9d91407937cacdfc93f58f2ccd3 4622334b70c0585d5a3436271bdb273133f1e95b Tawatchai Pitak <jokjokjok00720@gmail.com> 1748917345 +0700	commit: EDIT: add end task on rainregions.py
+4622334b70c0585d5a3436271bdb273133f1e95b 5e14f9a04f4097c91f704fb2bf6d6f9ad4de628c Tawatchai Pitak <jokjokjok00720@gmail.com> 1748917406 +0700	commit: EDIT: add end task on rainregions.py
+5e14f9a04f4097c91f704fb2bf6d6f9ad4de628c 0143ff6089177ed61668f0f2b6c9c3e7ef84a95d Tawatchai Pitak <jokjokjok00720@gmail.com> 1748918296 +0700	commit: EDIT: valuse.yaml file
+0143ff6089177ed61668f0f2b6c9c3e7ef84a95d 55962d8da416f3e62505098cca1414f7fc321be3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748918386 +0700	commit: EDIT: time to run task on rainregions.py
+55962d8da416f3e62505098cca1414f7fc321be3 eeded6e23117e0b349d7edd1350ec3d41860faf5 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748918665 +0700	commit: EDIT: time to run task on rainregions.py
+eeded6e23117e0b349d7edd1350ec3d41860faf5 2e7166c81bbb1383cb6d4c1948775af901a5a1f3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748919933 +0700	commit: EDIT: valuse.yaml file
+2e7166c81bbb1383cb6d4c1948775af901a5a1f3 c80f7a94235e1682b7f635668d36dfe7d7ca589c Tawatchai Pitak <jokjokjok00720@gmail.com> 1748924216 +0700	commit: EDIT: rainregions.py file
+c80f7a94235e1682b7f635668d36dfe7d7ca589c 8403afbb71c87927d07d41ca125eb2811ca8e720 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748924628 +0700	commit: EDIT: rainregions.py file
+8403afbb71c87927d07d41ca125eb2811ca8e720 c225b6221766cc422e165cab8e45f1061ce3896a Tawatchai Pitak <jokjokjok00720@gmail.com> 1748924764 +0700	commit: EDIT: rainregions.py file
+c225b6221766cc422e165cab8e45f1061ce3896a 01e778490098ec249afbd2c0dcc28bbc7bb2bf16 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748924803 +0700	commit: EDIT: rainregions.py file
+01e778490098ec249afbd2c0dcc28bbc7bb2bf16 b6edd8e552264288c9d3d1bbfe5fb57c51ea2735 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748926687 +0700	commit: EDIT: time to run task on all dag
+b6edd8e552264288c9d3d1bbfe5fb57c51ea2735 c9be9b0b09e2ed80f98380bf02b8948afd41b4a4 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748929264 +0700	commit: EDIT: delete on conflict in weathertoday.py
+c9be9b0b09e2ed80f98380bf02b8948afd41b4a4 303295f2974040503695214cbfd8ce065bad78f1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748930226 +0700	commit: EDIT: time to run task on all dag
+303295f2974040503695214cbfd8ce065bad78f1 a9da6c3ebbc3c445e15c49512ba0683dc5e8682e Tawatchai Pitak <jokjokjok00720@gmail.com> 1748930861 +0700	commit: EDIT: add discord_alert and time to run task on all dag
+a9da6c3ebbc3c445e15c49512ba0683dc5e8682e 21f3d875d9c003df5a59d985a96863f08c797784 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748935380 +0700	commit: EDIT: rainregions.py file
+21f3d875d9c003df5a59d985a96863f08c797784 cfb65e7a0bb4158c1b21ce3817ca1b5b074d2309 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748936374 +0700	commit: EDIT: rainregions.py file
+cfb65e7a0bb4158c1b21ce3817ca1b5b074d2309 78ac42cc46f0a8d761e28b708f942f03b8098ea8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748936991 +0700	commit: EDIT: rainregions.py file
+78ac42cc46f0a8d761e28b708f942f03b8098ea8 3376e4f1c2d167c2058a3712ae7a9412665ea763 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748937618 +0700	commit: EDIT: change time for active dag
+3376e4f1c2d167c2058a3712ae7a9412665ea763 2b899190dc08f1980af0407b55455b7f4ecc6487 Tawatchai Pitak <jokjokjok00720@gmail.com> 1748937703 +0700	commit: EDIT: stations.py file
+2b899190dc08f1980af0407b55455b7f4ecc6487 f0498f20b8ea8de817af2eba9cde32f75750351e Tawatchai Pitak <jokjokjok00720@gmail.com> 1748942677 +0700	commit: CREATE: imports_from3.py
+f0498f20b8ea8de817af2eba9cde32f75750351e 45908fd50b53839e84effa196a25b40fd75b299f Tawatchai Pitak <jokjokjok00720@gmail.com> 1748943367 +0700	commit: CREATE: edit imports_from3.py
+45908fd50b53839e84effa196a25b40fd75b299f c4e5d8ab6dbc1c2ce491726d6dd0c44dea5ea71f Tawatchai Pitak <jokjokjok00720@gmail.com> 1749008783 +0700	commit: EDIT: test build Dockerfile
+c4e5d8ab6dbc1c2ce491726d6dd0c44dea5ea71f c1dd9a8e056ebecdcf57c57ea25c387c589369b0 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749008912 +0700	commit: CREATE: Dockerfile
+c1dd9a8e056ebecdcf57c57ea25c387c589369b0 94becfcc218a2ecf345a588e6784e70515dc748e Tawatchai Pitak <jokjokjok00720@gmail.com> 1749011198 +0700	commit: EDIT: all data
+94becfcc218a2ecf345a588e6784e70515dc748e 7cb5d65375a3f7dc00dfdbb713c82b09708bfcd8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749018263 +0700	commit: EDIT: Dockerfile
+7cb5d65375a3f7dc00dfdbb713c82b09708bfcd8 dfe490f009853a36f55d96c3a37d74285b93639e Tawatchai Pitak <jokjokjok00720@gmail.com> 1749018424 +0700	commit: EDIT: Dockerfile
+dfe490f009853a36f55d96c3a37d74285b93639e bb4de2a0daf880974a9f7e4782a9651214b42dcd Tawatchai Pitak <jokjokjok00720@gmail.com> 1749018475 +0700	commit: EDIT: Dockerfile
+bb4de2a0daf880974a9f7e4782a9651214b42dcd c8f3392bb3829553b283e943340e8378200dfee3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749018777 +0700	commit: EDIT: Dockerfile
+c8f3392bb3829553b283e943340e8378200dfee3 b3da3eb9e1f4c45be17de30a677d7d9f105e1710 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749018947 +0700	commit: EDIT: Dockerfile
+b3da3eb9e1f4c45be17de30a677d7d9f105e1710 becac42d1848eafe1e52b51a1ebf92b778a241e8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749019158 +0700	commit: EDIT: image repo
+becac42d1848eafe1e52b51a1ebf92b778a241e8 1b85f188cec0ffc33f967811bbd94f5e503fb39d Tawatchai Pitak <jokjokjok00720@gmail.com> 1749095011 +0700	commit: EDIT: Dockerfile
+1b85f188cec0ffc33f967811bbd94f5e503fb39d 00e069c22fdb5f95c8cbba7b588b96c5e17f42f3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749104505 +0700	commit: EDIT: Dockerfile
+00e069c22fdb5f95c8cbba7b588b96c5e17f42f3 afe144cafc40cded0065c192449e22684d99fd83 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749106166 +0700	commit: EDIT: values.yaml
+afe144cafc40cded0065c192449e22684d99fd83 f637bc7e8f142513bf8b7d9968fcd13c2504b55a Tawatchai Pitak <jokjokjok00720@gmail.com> 1749106601 +0700	commit: EDIT: values.yaml
+f637bc7e8f142513bf8b7d9968fcd13c2504b55a 0df557139f1010d37697046e2fffe908b55c38e3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749106872 +0700	commit: EDIT: Docketfile
+0df557139f1010d37697046e2fffe908b55c38e3 c0e312d834e5f55adc1d35907842f802b0338c02 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749108045 +0700	commit: EDIT: Docketfile
+c0e312d834e5f55adc1d35907842f802b0338c02 d739feb8e4622bacc9fa06f80cf4cbc7c7cc3024 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749108273 +0700	commit: EDIT: Docketfile
+d739feb8e4622bacc9fa06f80cf4cbc7c7cc3024 bcd801a4774245f0150a56f878536e0ebee5c9b5 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749108534 +0700	commit: EDIT: valuse.yaml
+bcd801a4774245f0150a56f878536e0ebee5c9b5 f273e58d469352a4849cadfa20e563b436400626 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749112672 +0700	commit: EDIT: valuse.yaml
+f273e58d469352a4849cadfa20e563b436400626 371be4a9e96a0ddfdb867f85e424ab79c023a08c Tawatchai Pitak <jokjokjok00720@gmail.com> 1749112727 +0700	commit: EDIT: valuse.yaml
+371be4a9e96a0ddfdb867f85e424ab79c023a08c 603385cef2ad9a6e704a832714f1395e5a58d360 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749179696 +0700	commit: edit: dockerfile
+603385cef2ad9a6e704a832714f1395e5a58d360 059ac44a857ed8b78726f5bb7950645a6d631ae6 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749181311 +0700	commit: EDIT: dag etl_burnt_scar_dag in burntscar_from_S3.py
+059ac44a857ed8b78726f5bb7950645a6d631ae6 c632e4abeea0fc5a29d9c2add68d1e4c117c590c Tawatchai Pitak <jokjokjok00720@gmail.com> 1749182298 +0700	commit: EDIT: dag etl_burnt_scar_dag in burntscar_from_S3.py
+c632e4abeea0fc5a29d9c2add68d1e4c117c590c e59c7176bffe2345d9088d66579fe5e13457dc33 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749189339 +0700	commit: EDIT: dockerfile and requirements.txt
+e59c7176bffe2345d9088d66579fe5e13457dc33 63ac2dfc92120fc3ab9dfda6141e6d4b87d373e2 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749189527 +0700	commit: EDIT: requirements.txt
+63ac2dfc92120fc3ab9dfda6141e6d4b87d373e2 b2e98f79bee4745ab975a51620a0d7398e86f789 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749190165 +0700	commit: EDIT: burntscar_from_S3.py
+b2e98f79bee4745ab975a51620a0d7398e86f789 aa4db9540c891e135a3260a34bd0b14498f65f32 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749191548 +0700	commit: EDIT: burntscar_from_S3.py
+aa4db9540c891e135a3260a34bd0b14498f65f32 c603f19d3c85e6d9250fe4223737259c6600278d Tawatchai Pitak <jokjokjok00720@gmail.com> 1749438634 +0700	commit: DELETE: debug file
+c603f19d3c85e6d9250fe4223737259c6600278d 0a238f74864a8e7c8333f2324fbed09ca9911145 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749445011 +0700	commit: EDIT: burntscar_from_S3.py
+0a238f74864a8e7c8333f2324fbed09ca9911145 d3785b6866a1179b609bcf5b6063e6925935225f Tawatchai Pitak <jokjokjok00720@gmail.com> 1749451421 +0700	commit: EDIT: burntscar_from_S3.py
+d3785b6866a1179b609bcf5b6063e6925935225f 27f32d6a4600e4ded88c7ebbdb335df909d2e281 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749451495 +0700	commit: EDIT: burntscar_from_S3.py
+27f32d6a4600e4ded88c7ebbdb335df909d2e281 9b9b627c316da128a2e4f24283d57e5ce6a84648 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749453666 +0700	commit: DELETE: debug file
+9b9b627c316da128a2e4f24283d57e5ce6a84648 13c8368ed322226a08ab8ba30f182f47cea0177e Tawatchai Pitak <jokjokjok00720@gmail.com> 1749625595 +0700	commit: CREATE: radarsat2.py
+13c8368ed322226a08ab8ba30f182f47cea0177e abaca072aaae8bbda07acd4ffa21a02afa382d8b Tawatchai Pitak <jokjokjok00720@gmail.com> 1749626136 +0700	commit: EDIT: radarsat2.py
+abaca072aaae8bbda07acd4ffa21a02afa382d8b e05c6f2621a5365595756f2d6b6fa7a8344b9c08 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749626291 +0700	commit: EDIT: radarsat2.py
+e05c6f2621a5365595756f2d6b6fa7a8344b9c08 542911abb5c4482c931e3a78cd207f4f10808314 Tawatchai Pitak <jokjokjok00720@gmail.com> 1749628846 +0700	commit: EDIT: values.yaml
+542911abb5c4482c931e3a78cd207f4f10808314 f642620f5b6628676d7539c9188d569ef9807b96 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750041376 +0700	commit: EDIT: build docker image
+f642620f5b6628676d7539c9188d569ef9807b96 0a397ab7fa05ca857580057ea42a24070a001245 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750043588 +0700	commit: EDIT: radarsat2.py
+0a397ab7fa05ca857580057ea42a24070a001245 8a932b8e6886c6d5890f7370ea8eca5de71af3a8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750044153 +0700	commit: EDIT: radarsat2.py
+8a932b8e6886c6d5890f7370ea8eca5de71af3a8 a9f44d2a729ce568065909296aa949ea2a47e607 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750049069 +0700	commit: CREATE: pod_template.yaml
+a9f44d2a729ce568065909296aa949ea2a47e607 b43e307bad5b7d07bc88397ce2c256b0fa9f9146 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750055218 +0700	commit: EDIT: build docker file
+b43e307bad5b7d07bc88397ce2c256b0fa9f9146 4339208a62aa63f66d91047e0457cc4b60e52026 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750057068 +0700	commit: EDIT: radarsat2.py
+4339208a62aa63f66d91047e0457cc4b60e52026 608a36df5bea6b6e96235b2c6af65df83077c961 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750057637 +0700	commit: EDIT: radarsat2.py
+608a36df5bea6b6e96235b2c6af65df83077c961 33430f0fbb22a41541b6bf1a71751266ea003cab Tawatchai Pitak <jokjokjok00720@gmail.com> 1750057945 +0700	commit: EDIT: add apache-airflow-providers-postgres module
+33430f0fbb22a41541b6bf1a71751266ea003cab 2dd9fa40167c850ed5a49414574a40499261fd4c Tawatchai Pitak <jokjokjok00720@gmail.com> 1750059023 +0700	commit: EDIT: radarsat2.py
+2dd9fa40167c850ed5a49414574a40499261fd4c 9711dd5e3486c3b8a78f4841da1479736aedcdf9 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750059095 +0700	commit: EDIT: radarsat2.py
+9711dd5e3486c3b8a78f4841da1479736aedcdf9 b06ce4a848d59770b0f3cf7d9dae51009d190322 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750059153 +0700	commit: EDIT: radarsat2.py
+b06ce4a848d59770b0f3cf7d9dae51009d190322 06cec272eb1edf105fbd0ec222e0dcc56a685694 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750061313 +0700	commit: EDIT: radarsat2.py
+06cec272eb1edf105fbd0ec222e0dcc56a685694 147a4aeb2ce2a75b8165e72d8dbd22e665457e03 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750235803 +0700	commit: EDIT: values.yaml and dockerfile
+147a4aeb2ce2a75b8165e72d8dbd22e665457e03 59a989ff9f3c6ce3ff671be74cc8cdb118e16087 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750237553 +0700	commit: EDIT: values.yaml and dockerfile
+59a989ff9f3c6ce3ff671be74cc8cdb118e16087 21a91a4d2d77d33a301d4c733da73b5100299c3e Tawatchai Pitak <jokjokjok00720@gmail.com> 1750237742 +0700	commit: EDIT: values.yaml and dockerfile
+21a91a4d2d77d33a301d4c733da73b5100299c3e ec7ba5149619e49beae2a4adc15f59578a038a4f Tawatchai Pitak <jokjokjok00720@gmail.com> 1750388384 +0700	commit: EDIT: Dockerflie and Dag
+ec7ba5149619e49beae2a4adc15f59578a038a4f f938cc62eee7a618cc8a556599c9e45901ef48ef Tawatchai Pitak <jokjokjok00720@gmail.com> 1750389486 +0700	commit: EDIT: Dockerflie
+f938cc62eee7a618cc8a556599c9e45901ef48ef 803ef0d16d853fef22826b63b02b298b3687b030 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750389879 +0700	commit: EDIT: Dockerflie
+803ef0d16d853fef22826b63b02b298b3687b030 812196e1bfec700be012e99cef6beae9ff393755 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750390927 +0700	commit: EDIT: Dockerflie
+812196e1bfec700be012e99cef6beae9ff393755 c5394a0515dd2b8a1c6a2d3b9f98097c767bf3d5 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750391180 +0700	commit: EDIT: Dockerflie
+c5394a0515dd2b8a1c6a2d3b9f98097c767bf3d5 52e1274b33ee733d4507041c42c525ed2dde67ed Tawatchai Pitak <jokjokjok00720@gmail.com> 1750392008 +0700	commit: CREATE: Dag for test connection s3
+52e1274b33ee733d4507041c42c525ed2dde67ed fcad550746ae87ddbbe557a18e979fb06a793389 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750392148 +0700	commit: CREATE: Dag for test connection s3
+fcad550746ae87ddbbe557a18e979fb06a793389 e004331495afe68663444dbcb637bee2d117d560 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750392204 +0700	commit: CREATE: Dag for test connection s3
+e004331495afe68663444dbcb637bee2d117d560 401292eb2c09190a8853646c0ad1d2fa62c2b4dc Tawatchai Pitak <jokjokjok00720@gmail.com> 1750749603 +0700	commit: EDIT: Dockerfile
+401292eb2c09190a8853646c0ad1d2fa62c2b4dc 5d8d1a5f3e6ff3ee3f1b002f49a487e6961e9ff9 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750749790 +0700	commit: EDIT: Dockerfile
+5d8d1a5f3e6ff3ee3f1b002f49a487e6961e9ff9 9d386b084d81697d237e87535d5742e6430891d9 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750749936 +0700	commit: EDIT: Dockerfile
+9d386b084d81697d237e87535d5742e6430891d9 6cf8748c71804aa37b354b78d38879f7f2b1b50c Tawatchai Pitak <jokjokjok00720@gmail.com> 1750750012 +0700	commit: EDIT: Dockerfile
+6cf8748c71804aa37b354b78d38879f7f2b1b50c 9887316bb1d7ca13407d1d01414bb24ed403b4eb Tawatchai Pitak <jokjokjok00720@gmail.com> 1750750163 +0700	commit: EDIT: Dockerfile
+9887316bb1d7ca13407d1d01414bb24ed403b4eb 435a943b6a2c959ffe5b92ec9b4cd0d1806142cf Tawatchai Pitak <jokjokjok00720@gmail.com> 1750750324 +0700	commit: EDIT: Dockerfile
+435a943b6a2c959ffe5b92ec9b4cd0d1806142cf 9c50070e94976922807936302b44bbba116eda90 Tawatchai Pitak <jokjokjok00720@gmail.com> 1750750681 +0700	commit: EDIT: values.yaml
+9c50070e94976922807936302b44bbba116eda90 4e9b5dd85ccedad77bab0954a45592713583829a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751258481 +0700	commit: edit dag get data radarsat2 from minio
+4e9b5dd85ccedad77bab0954a45592713583829a 40a18c83743426f7b9d5a1139c8508c3da7d6c99 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751259634 +0700	commit: edit dag get data radarsat2 from minio
+40a18c83743426f7b9d5a1139c8508c3da7d6c99 6212fe4849ca466ea161d853b75e64aa8c777fe4 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751271703 +0700	commit: edit values.yaml for edit webserver config
+6212fe4849ca466ea161d853b75e64aa8c777fe4 9203b929cd2812bde5b7946a04f01f257cd06aaa Tawatchai Pitak <jokjokjok00720@gmail.com> 1751342307 +0700	commit: edit radarsat2.py
+9203b929cd2812bde5b7946a04f01f257cd06aaa beaf11f5c9e7953a40233a4dd63dfe6f2af7d813 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751343029 +0700	commit: edit radarsat2.py
+beaf11f5c9e7953a40233a4dd63dfe6f2af7d813 7593ad5bb6438de9205cbf9f6a3f88959a6cfca1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751343141 +0700	commit: edit radarsat2.py
+7593ad5bb6438de9205cbf9f6a3f88959a6cfca1 85ba60431e7beb5793e4453f40f6ad540b6d48e0 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751343424 +0700	commit: edit python version on dockerfile
+85ba60431e7beb5793e4453f40f6ad540b6d48e0 206738301d94518b0baef486e007091865242cb3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751343726 +0700	commit: edit python version on dockerfile
+206738301d94518b0baef486e007091865242cb3 259569d6484472280f5c20ab1d322040e3e1685d Tawatchai Pitak <jokjokjok00720@gmail.com> 1751344343 +0700	commit: edit python version on dockerfile
+259569d6484472280f5c20ab1d322040e3e1685d bca0ed522d08cf3b760615859b45733fb8d2a44b Tawatchai Pitak <jokjokjok00720@gmail.com> 1751345083 +0700	commit: edit python version on dockerfile
+bca0ed522d08cf3b760615859b45733fb8d2a44b fd08fb65887d80894d072ad0540c03c4b0cea22a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751345863 +0700	commit: edit radarsat2.py
+fd08fb65887d80894d072ad0540c03c4b0cea22a b09f72e92513040ea376934fe1c4475dbc03127a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751348488 +0700	commit: edit radarsat2.py
+b09f72e92513040ea376934fe1c4475dbc03127a afd21cfe6951217905db160dbee42a0f0b4710ae Tawatchai Pitak <jokjokjok00720@gmail.com> 1751348883 +0700	commit: edit radarsat2.py
+afd21cfe6951217905db160dbee42a0f0b4710ae 62772785dd88bb8c795707782650ee50a812d2e8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751349228 +0700	commit: edit radarsat2.py
+62772785dd88bb8c795707782650ee50a812d2e8 720772ed4c7d909139384fd8bc295fcbb39ee6a1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751349624 +0700	commit: edit radarsat2.py
+720772ed4c7d909139384fd8bc295fcbb39ee6a1 32613c1d75c8058337566948e1da3cd752629aae Tawatchai Pitak <jokjokjok00720@gmail.com> 1751350616 +0700	commit: edit radarsat2.py
+32613c1d75c8058337566948e1da3cd752629aae 40f1b46b4c25cf4f8ee00ffe1cad9124a855c396 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751351493 +0700	commit: edit radarsat2.py
+40f1b46b4c25cf4f8ee00ffe1cad9124a855c396 522b5b0b9d95b959ab8232c7d419c275b59a8b52 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751352815 +0700	commit: edit radarsat2.py
+522b5b0b9d95b959ab8232c7d419c275b59a8b52 88639dc429eadf9d8271a3bfcf788ae1805ccba8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751354235 +0700	commit: edit radarsat2.py
+88639dc429eadf9d8271a3bfcf788ae1805ccba8 4187373f2b84d25677b9ab8da2ead71f6c54953d Tawatchai Pitak <jokjokjok00720@gmail.com> 1751354729 +0700	commit: edit radarsat2.py
+4187373f2b84d25677b9ab8da2ead71f6c54953d 210e556dcd495388ed3b7fdc41f8ea5bfebea3c6 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751355622 +0700	commit: edit radarsat2.py
+210e556dcd495388ed3b7fdc41f8ea5bfebea3c6 d1b188a35f72dd7ac4de7ea0b0ed07913f1393c1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751355960 +0700	commit: edit radarsat2.py
+d1b188a35f72dd7ac4de7ea0b0ed07913f1393c1 440d3e02a429ae056c9616293d025595c395a8f3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751356367 +0700	commit: edit radarsat2.py
+440d3e02a429ae056c9616293d025595c395a8f3 8c74727718052648e27614b8ed097959687c342f Tawatchai Pitak <jokjokjok00720@gmail.com> 1751358893 +0700	commit: edit radarsat2.py
+8c74727718052648e27614b8ed097959687c342f 837f0a4cca27cb360250f377bb0ab04b50fe984d Tawatchai Pitak <jokjokjok00720@gmail.com> 1751359935 +0700	commit: edit radarsat2.py
+837f0a4cca27cb360250f377bb0ab04b50fe984d ae472fa1b747a962f8a1aa430888d780b90e9c79 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751360002 +0700	commit: edit radarsat2.py
+ae472fa1b747a962f8a1aa430888d780b90e9c79 9c74204f47af501c706d7928de729f4b0289c383 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751360099 +0700	commit: edit radarsat2.py
+9c74204f47af501c706d7928de729f4b0289c383 4860dca6dde407a1bb140171615b9c9e9686ad9a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751360316 +0700	commit: edit radarsat2.py
+4860dca6dde407a1bb140171615b9c9e9686ad9a f4f37c8235fbc8196c388b4e0bc702a95bca69c3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751360702 +0700	commit: edit radarsat2.py
+f4f37c8235fbc8196c388b4e0bc702a95bca69c3 f81561404e7851499484dca786faff973a9c44b6 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751362899 +0700	commit: edit radarsat2.py
+f81561404e7851499484dca786faff973a9c44b6 c90de25560c61c4e0645dc6328773756adf4a91a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751363139 +0700	commit: edit radarsat2.py
+c90de25560c61c4e0645dc6328773756adf4a91a da5fe0dfd3d8d91d4d64526feb75e0fd6233e6fe Tawatchai Pitak <jokjokjok00720@gmail.com> 1751363409 +0700	commit: edit radarsat2.py
+da5fe0dfd3d8d91d4d64526feb75e0fd6233e6fe 2defd90d1d0d06be114c3ce084b6bb1d8f04277c Tawatchai Pitak <jokjokjok00720@gmail.com> 1751363650 +0700	commit: edit radarsat2.py
+2defd90d1d0d06be114c3ce084b6bb1d8f04277c a3cbaa9d23aaadce7c3485eb901ace16e10ecc68 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751364348 +0700	commit: edit radarsat2.py
+a3cbaa9d23aaadce7c3485eb901ace16e10ecc68 828f553293497635da02b1ab2f82b2afbb0c79cf Tawatchai Pitak <jokjokjok00720@gmail.com> 1751364855 +0700	commit: edit radarsat2.py
+828f553293497635da02b1ab2f82b2afbb0c79cf 41ca43f654a0e1263de07967f01bcef99dc38f8a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751364981 +0700	commit: edit radarsat2.py
+41ca43f654a0e1263de07967f01bcef99dc38f8a 5ed6d5c2d47742efe82cf5ab0ba0ececc72ae12c Tawatchai Pitak <jokjokjok00720@gmail.com> 1751365078 +0700	commit: edit radarsat2.py
+5ed6d5c2d47742efe82cf5ab0ba0ececc72ae12c fd3afb3f3453f58426cfca1373392c6f99b04e4a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751422650 +0700	commit: create theos2_airflow.py
+fd3afb3f3453f58426cfca1373392c6f99b04e4a 0b0447be366d5eb8be2c4689e92f02ea7110e925 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751422855 +0700	commit: edir dag name on theos2_airflow.py
+0b0447be366d5eb8be2c4689e92f02ea7110e925 bb8cad8c081fc1276164fc815584cd84d943a741 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751423008 +0700	commit: edit table name for import data
+bb8cad8c081fc1276164fc815584cd84d943a741 a334bcdb6ebee73461deff5e409e4c80f8da3e01 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751423583 +0700	commit: edit code for connection s3
+a334bcdb6ebee73461deff5e409e4c80f8da3e01 a4625d10235656ba3c1728ef8d6be1d59a5be056 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751423916 +0700	commit: edit code for connection s3
+a4625d10235656ba3c1728ef8d6be1d59a5be056 f7cf96356264237fc5742dc23c13ca04d05f1eba Tawatchai Pitak <jokjokjok00720@gmail.com> 1751424805 +0700	commit: edit code for connection s3
+f7cf96356264237fc5742dc23c13ca04d05f1eba 6ed12db217752a21603941c8436142542251231b Tawatchai Pitak <jokjokjok00720@gmail.com> 1751425243 +0700	commit: edit dag_id
+6ed12db217752a21603941c8436142542251231b 1e73e7dbb78d804406b7368b051d337a7187ae52 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751426407 +0700	commit: edit code for connection s3
+1e73e7dbb78d804406b7368b051d337a7187ae52 3176ab1e4c25f555f57a1061c6fc27156e239000 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751426731 +0700	commit: edit code for connection s3
+3176ab1e4c25f555f57a1061c6fc27156e239000 865d514930e0ca94b74494f6119a6c348f00bc29 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751427133 +0700	commit: edit code for connection s3
+865d514930e0ca94b74494f6119a6c348f00bc29 c57f3b3f2e4750272247d38df8ce9af6bf54264e Tawatchai Pitak <jokjokjok00720@gmail.com> 1751427616 +0700	commit: edit radarsat2.py
+c57f3b3f2e4750272247d38df8ce9af6bf54264e bca387b83ac5e5072dbf256b40f6d699695262dc Tawatchai Pitak <jokjokjok00720@gmail.com> 1751428137 +0700	commit: edit radarsat2.py
+bca387b83ac5e5072dbf256b40f6d699695262dc 52594706fed830455f8270cd661cd071f0d6e1d0 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751428592 +0700	commit: edit radarsat2.py
+52594706fed830455f8270cd661cd071f0d6e1d0 a7cb6ca0a444e475c0e79df5cef973474c0cd20c Tawatchai Pitak <jokjokjok00720@gmail.com> 1751438655 +0700	commit: edit radarsat2.py
+a7cb6ca0a444e475c0e79df5cef973474c0cd20c f118f4791bef1ef98eab94eb54d9d50720b2d31b Tawatchai Pitak <jokjokjok00720@gmail.com> 1751446973 +0700	commit: test more dag
+f118f4791bef1ef98eab94eb54d9d50720b2d31b 1882d9e6446de798ecd2a7f8869c91d34f7cabd1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751447078 +0700	commit: test more dag
+1882d9e6446de798ecd2a7f8869c91d34f7cabd1 6980aa54bd427013115fa852fa31996980524b9e Tawatchai Pitak <jokjokjok00720@gmail.com> 1751447218 +0700	commit: test more dag
+6980aa54bd427013115fa852fa31996980524b9e 1fa812fd7bc5f9db9513196b8058827d2aaa78d5 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751515458 +0700	commit: create thaichote_airflow.py for manage data from Thaichote satellite
+1fa812fd7bc5f9db9513196b8058827d2aaa78d5 338316940dca36831e8ff3a09cf8a538d9c3c9d8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751515653 +0700	commit: edit dag for thaichote_airflow.py to import_thaichote_from_minio_taskflow
+338316940dca36831e8ff3a09cf8a538d9c3c9d8 115a7d33959c51ac66cf5935de315e202435a9e2 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751516471 +0700	commit: edit dag function for convert geometry to json
+115a7d33959c51ac66cf5935de315e202435a9e2 3e6642eb381c902afe0050ae774977c5535fb06c Tawatchai Pitak <jokjokjok00720@gmail.com> 1751516591 +0700	commit: edit dag for thaichote_airflow.py to import_thaichote_from_minio_taskflow
+3e6642eb381c902afe0050ae774977c5535fb06c 6b4a5ed9275af55113e4a7adfe0b34af822ba769 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751516991 +0700	commit: edit dag function on thaichote_airflow.py
+6b4a5ed9275af55113e4a7adfe0b34af822ba769 71c8a3d926b5b947d6878ddf56afabdaafaeeb32 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751524772 +0700	commit: edit radarsat2_airflow.py
+71c8a3d926b5b947d6878ddf56afabdaafaeeb32 c7080858b240fd7013f78f638f60990a8f54deb8 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751524922 +0700	commit: edit dag name on radarsat2_airflow.py
+c7080858b240fd7013f78f638f60990a8f54deb8 fc098f2bfd50373154d665350146121fd99d392f Tawatchai Pitak <jokjokjok00720@gmail.com> 1751525107 +0700	commit: add datetimw module
+fc098f2bfd50373154d665350146121fd99d392f b60012de9e4d19a7a4e8bfeade8b44ebce19452b Tawatchai Pitak <jokjokjok00720@gmail.com> 1751525584 +0700	commit: add datetimw module
+b60012de9e4d19a7a4e8bfeade8b44ebce19452b 2dd09955aaadd4b0e4b6924b9e61a8520b63dc65 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751526124 +0700	commit: edit table for insert data in radarsat2_airflow.py
+2dd09955aaadd4b0e4b6924b9e61a8520b63dc65 690dc1aa4d729259bebbac75e3c7e74340ea66b6 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751527567 +0700	commit: edit dag for ignore duplicates column
+690dc1aa4d729259bebbac75e3c7e74340ea66b6 f8270c75157e35d73e7f452e9d90b0940dcdd772 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751527730 +0700	commit: edit dag name on radarsat2_airflow.py
+f8270c75157e35d73e7f452e9d90b0940dcdd772 852ee26d8d530bef4452b1fab75dacb5e7bcba97 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751533370 +0700	commit: create new dag for extract/transform/load sentinel1a/1c data
+852ee26d8d530bef4452b1fab75dacb5e7bcba97 26f91be9c70bd709d4675bdf6118bef4247d8e2c Tawatchai Pitak <jokjokjok00720@gmail.com> 1751533629 +0700	commit: update new code on sentinel1_airflow.py
+26f91be9c70bd709d4675bdf6118bef4247d8e2c ef0ef2a539a280a60eefe41d0cf0f47465d4206d Tawatchai Pitak <jokjokjok00720@gmail.com> 1751533701 +0700	commit: edit file name to sentinel1a1c_airflow.py
+ef0ef2a539a280a60eefe41d0cf0f47465d4206d a77ad5e1cfefd485422620d539e614b0862cc1f6 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751533848 +0700	commit: edit file name to sentinel_1a_1c_airflow.py and edit dag name
+a77ad5e1cfefd485422620d539e614b0862cc1f6 cd06614139f973385bf95c74749b12e117e51364 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751534242 +0700	commit: edit dag name on sentinel_1a1c_airflow.py
+cd06614139f973385bf95c74749b12e117e51364 4f8a2482aa64ef744716b1f849a3b53a2cf9e08a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751534414 +0700	commit: edit dag name
+4f8a2482aa64ef744716b1f849a3b53a2cf9e08a cbd0b4ce9e1a92c84d160571aa0488f7a6f4f210 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751534603 +0700	commit: edit dag name
+cbd0b4ce9e1a92c84d160571aa0488f7a6f4f210 b75cd723ae94b43c602ecdd3899002e0162af123 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751595989 +0700	commit: update new code on sentinel_1a1c_airflow.py
+b75cd723ae94b43c602ecdd3899002e0162af123 39980f399ac65e5425826252b7a99169acada4d7 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751596610 +0700	commit: update new code on sentinel_1a1c_airflow.py
+39980f399ac65e5425826252b7a99169acada4d7 1e8c83a34344922f36dcb6a25795b7eb74cd3169 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751597382 +0700	commit: update new code on sentinel_1a1c_airflow.py
+1e8c83a34344922f36dcb6a25795b7eb74cd3169 19589e80ebe36eba4751515bf69dd275aa0859f7 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751597969 +0700	commit: update new code on sentinel_1a1c_airflow.py
+19589e80ebe36eba4751515bf69dd275aa0859f7 88b6a0c274bbeda22d08d0ba28214060ab31ebe0 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751598389 +0700	commit: update new code on sentinel_1a1c_airflow.py
+88b6a0c274bbeda22d08d0ba28214060ab31ebe0 0c6bd34c021cb9e3606e530f2d8b713720c7cc5d Tawatchai Pitak <jokjokjok00720@gmail.com> 1751598699 +0700	commit: update new code on sentinel_1a1c_airflow.py
+0c6bd34c021cb9e3606e530f2d8b713720c7cc5d 97bfdf5241bdbfc0ebbfd3f9d198f2fc552612e9 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751599023 +0700	commit: update new code on sentinel_1a1c_airflow.py
+97bfdf5241bdbfc0ebbfd3f9d198f2fc552612e9 259340b01a1547bce0d8cb60b72e37daec8d50c3 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751600645 +0700	commit: update new code on sentinel_1a1c_airflow.py
+259340b01a1547bce0d8cb60b72e37daec8d50c3 0875ec2905d5c1899c24c94ad4432e77f3ebabd1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751601112 +0700	commit: update new code on sentinel_1a1c_airflow.py
+0875ec2905d5c1899c24c94ad4432e77f3ebabd1 12d3cd0fb63db75dcb46ac6120dee243c1777ff4 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751601409 +0700	commit: update new code on sentinel_1a1c_airflow.py
+12d3cd0fb63db75dcb46ac6120dee243c1777ff4 b10497ce8f3917a4462466311e41dff5b63c8883 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751602551 +0700	commit: update new code on sentinel_1a1c_airflow.py
+b10497ce8f3917a4462466311e41dff5b63c8883 150174cda1d160326716998958ab88350768f595 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751602837 +0700	commit: update new code on sentinel_1a1c_airflow.py
+150174cda1d160326716998958ab88350768f595 325438202d30420460f72d9e340edcfe07fdf196 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751603027 +0700	commit: update new code on sentinel_1a1c_airflow.py
+325438202d30420460f72d9e340edcfe07fdf196 66227d5ea49b498bec3802f8ebe9358d68217c18 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751603237 +0700	commit: update new code on sentinel_1a1c_airflow.py
+66227d5ea49b498bec3802f8ebe9358d68217c18 8875942b1d5f17b0db15ac833601116e510d2ed7 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751603639 +0700	commit: update new code on sentinel_1a1c_airflow.py
+8875942b1d5f17b0db15ac833601116e510d2ed7 c7884ef29245b05e2d4c80a81ebc68a639032f21 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751608124 +0700	commit: update new code on sentinel_1a1c_airflow.py
+c7884ef29245b05e2d4c80a81ebc68a639032f21 e436470d01bd5e7f15274e73dfc7f9e396dde2c9 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751608483 +0700	commit: update new code on sentinel_1a1c_airflow.py
+e436470d01bd5e7f15274e73dfc7f9e396dde2c9 d975d7f0dae96a6ee0199730c7bfd5702b73172f Tawatchai Pitak <jokjokjok00720@gmail.com> 1751608781 +0700	commit: update new code on sentinel_1a1c_airflow.py
+d975d7f0dae96a6ee0199730c7bfd5702b73172f d35ca5f8ef1a913b9bc81c66465589ed575f2a77 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751609189 +0700	commit: update new code on sentinel_1a1c_airflow.py
+d35ca5f8ef1a913b9bc81c66465589ed575f2a77 03527f7f5b5a3153d3c56a7c6888bfc21758534b Tawatchai Pitak <jokjokjok00720@gmail.com> 1751609340 +0700	commit: update new code on sentinel_1a1c_airflow.py
+03527f7f5b5a3153d3c56a7c6888bfc21758534b ceb8fdaaaff4f4229601c53a84c35ab213e6b756 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751609626 +0700	commit: update new code on sentinel_1a1c_airflow.py
+ceb8fdaaaff4f4229601c53a84c35ab213e6b756 784bc7c08cdf5fc0d732a5686fba87df8d793c8e Tawatchai Pitak <jokjokjok00720@gmail.com> 1751610135 +0700	commit: update new code on sentinel_1a1c_airflow.py
+784bc7c08cdf5fc0d732a5686fba87df8d793c8e 9dd7a6a5c2fbdc53d89721416f57566d6eec83d0 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751611178 +0700	commit: update new code on sentinel_1a1c_airflow.py
+9dd7a6a5c2fbdc53d89721416f57566d6eec83d0 23fbfaf6c924112cb44217c62b31c19778b84c97 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751613629 +0700	commit: create cosmoskymed_airflow.py for cosmoskymed plan data
+23fbfaf6c924112cb44217c62b31c19778b84c97 25b25975ae63ac87bc065188769a992cb4ccae59 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751613830 +0700	commit: edit import_cosmoskymed_from_minio_taskflow dag
+25b25975ae63ac87bc065188769a992cb4ccae59 7c8f2c734ae593edca7a72938dfb024d131cde83 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751616518 +0700	commit: edit dag name and file name on sentinel1a1c_airflow.py
+7c8f2c734ae593edca7a72938dfb024d131cde83 5b9a1bed3ac9de67084ade41b1ee051aedb74799 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751616766 +0700	commit: rename file name sentinel1a1c_airflow.py
+5b9a1bed3ac9de67084ade41b1ee051aedb74799 982dfcdf0aa730f0f22204a843f56ddd986b869a Tawatchai Pitak <jokjokjok00720@gmail.com> 1751617149 +0700	commit: rename dag name sentinel1a1c_airflow.py
+982dfcdf0aa730f0f22204a843f56ddd986b869a c7fba7a1641a124aa2f90925ef6459d70ffb686f Tawatchai Pitak <jokjokjok00720@gmail.com> 1751617263 +0700	commit: rename dag name for all file
+c7fba7a1641a124aa2f90925ef6459d70ffb686f db683bdc3cb363583aa41e20bc2a113e8e39f4bb Tawatchai Pitak <jokjokjok00720@gmail.com> 1751621301 +0700	commit: update set scheduler and start_date for run dag
+db683bdc3cb363583aa41e20bc2a113e8e39f4bb ba3984fbae3344640db4a751d9163f30fb8957f1 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751621681 +0700	commit: edit theos2_airflow.py
+ba3984fbae3344640db4a751d9163f30fb8957f1 4f0a721d5d8082271c2d019f2ecc98823bd662e6 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751642711 +0700	commit: edit target table on sentinel1a1c_airflow.py
+4f0a721d5d8082271c2d019f2ecc98823bd662e6 0f5442bfb5ca05c7d6ca716f67919a0c1095557d Tawatchai Pitak <jokjokjok00720@gmail.com> 1751642835 +0700	commit: edit target table on cosmoskymed_airflow.py
+0f5442bfb5ca05c7d6ca716f67919a0c1095557d 872b4379bbc6fd7f2912412e3004e4d68e62f5e2 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751642952 +0700	commit: edit target table on radarsat2_airflow.py
+872b4379bbc6fd7f2912412e3004e4d68e62f5e2 d2a417b61425e1c1453da900bd00c65976ad5759 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751643093 +0700	commit: edit target table on thaichote.py
+d2a417b61425e1c1453da900bd00c65976ad5759 55e621e41c62c4581291e681ceb7e454e272d0f9 Tawatchai Pitak <jokjokjok00720@gmail.com> 1751643235 +0700	commit: edit target table on theos2_airflow.py
+55e621e41c62c4581291e681ceb7e454e272d0f9 a2cad73d392000f4d6d1aff3aa45feae02d90d27 tawatchai <tawatchai> 1751959312 +0700	commit: add boto3 to dockerfile
+a2cad73d392000f4d6d1aff3aa45feae02d90d27 a01d42374b30ea735b4da399e1a0632c747659f6 tawatchai <jokjokjok00720@gmail.com> 1752045411 +0700	commit: edit scheduler time for run dag on sentinel1a1c_airflow.py
+a01d42374b30ea735b4da399e1a0632c747659f6 a39887de91413d38f4bdf46711f0a5ce14790644 tawatchai <jokjokjok00720@gmail.com> 1752047163 +0700	commit: create new .py for test function
+a39887de91413d38f4bdf46711f0a5ce14790644 3965e7106109599e7fee2cc487564f53725be8d9 tawatchai <jokjokjok00720@gmail.com> 1752048888 +0700	commit: delete test file
+3965e7106109599e7fee2cc487564f53725be8d9 217a254adb12d3149265194773358258ab5d8392 tawatchai <jokjokjok00720@gmail.com> 1752725129 +0700	commit (merge): create test_log.py for test log
+217a254adb12d3149265194773358258ab5d8392 570e23c6d9ab86a98ad23c02e909da9b98d3de89 tawatchai <jokjokjok00720@gmail.com> 1752725715 +0700	commit: delete test_log.py
+570e23c6d9ab86a98ad23c02e909da9b98d3de89 d7df2971e1510ad43719f9b6ad6d2718375fcd81 tawatchai <jokjokjok00720@gmail.com> 1752725757 +0700	commit: delete test_dag.py
+d7df2971e1510ad43719f9b6ad6d2718375fcd81 34ad543213dda470d5bee782a12c1f796d53f95a tawatchai <jokjokjok00720@gmail.com> 1752728022 +0700	commit: create test_log.py for test log
+34ad543213dda470d5bee782a12c1f796d53f95a 70b7c4a10b758a1635f3e5a647e82201df182df8 tawatchai <jokjokjok00720@gmail.com> 1752729820 +0700	commit: create test_log.py for test log
+70b7c4a10b758a1635f3e5a647e82201df182df8 e4bacfaf31a292ae3b7fc5b769293de6a14a9a8d tawatchai <jokjokjok00720@gmail.com> 1752729931 +0700	commit: edit test_log.py for test log

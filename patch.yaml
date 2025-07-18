@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: airflow-triggerer
+  namespace: airflow
+imagePullSecrets:
+- name: gistda-habor
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: airflow-migrate-database-job
+  namespace: airflow
+imagePullSecrets:
+  - name: gistda-habor
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: airflow-cleanup
+  namespace: airflow
+imagePullSecrets:
+  - name: gistda-habor
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: airflow-create-user-job
+  namespace: airflow
+imagePullSecrets:
+  - name: gistda-habor
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: airflow-scheduler
+  namespace: airflow
+imagePullSecrets:
+  - name: gistda-habor

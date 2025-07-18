@@ -1,0 +1,50 @@
+variables:
+  PROJECT_NAME: "${CI_PROJECT_NAME}"
+  BRANCH: "${CI_COMMIT_REF_NAME}"
+  COMMIT_ID: "${CI_COMMIT_SHA}"
+  REGISTRY_NAME: "${CI_REGISTRY_IMAGE}"
+  REGISTRY_USER: "${CI_REGISTRY_USER}"
+  REGISTRY_PASSWORD: "${CI_REGISTRY_PASSWORD}"
+
+before_script:
+  - echo "$PROJECT_NAME $BRANCH $COMMIT_ID $REGISTRY_NAME $REGISTRY_USER $REGISTRY_PASSWORD"
+  - export git_Build_id=$(echo $COMMIT_ID | cut -c1-8)
+  - export build_time=$(date +"%Y-%m-%dT%H:%M:%SZ")
+
+stages:
+  - build
+  # - deploy
+  # - clean
+
+# -------------- BUILD ---------------------
+build_deploy:
+  stage: build
+  only:
+    - main
+  script:
+    # - cp $ENV_DEV ${PWD}/.env
+    - docker login "${HARBOR_URL}" -u "${HARBOR_USERNAME}" -p "${HARBOR_PASSWORD}"
+    - docker build -t "${HARBOR_HOST}/${HARBOR_PROJECT}/${CI_PROJECT_NAME}/${BRANCH}:$git_Build_id" .
+    - docker build -t "${HARBOR_HOST}/${HARBOR_PROJECT}/${CI_PROJECT_NAME}/${BRANCH}:latest" .
+    - docker push "${HARBOR_HOST}/${HARBOR_PROJECT}/${CI_PROJECT_NAME}/${BRANCH}:$git_Build_id"
+    - docker push "${HARBOR_HOST}/${HARBOR_PROJECT}/${CI_PROJECT_NAME}/${BRANCH}:latest"
+
+# # -------------- DEPLOY ---------------------
+# # deploy:
+# #   variables:
+# #     git_Build_id: $(echo $git_Build_id)
+# #   stage: deploy
+# #   only:
+# #     - main
+# #   script:
+# #     - kubectl config use-context gistda-platform-dev-cluster
+# #     - kubectl set image deployment/airflow_metadata airflow_metadata="${HARBOR_HOST}/${HARBOR_PROJECT}/${CI_PROJECT_NAME}/${BRANCH}:$git_Build_id" --namespace=airflow
+
+# # -------------- CLEAN ---------------------
+# # clean_build:
+# #   stage: clean
+# #   only:
+# #     - main
+# #   script:
+# #     - docker rmi "${HARBOR_HOST}/${HARBOR_PROJECT}/${CI_PROJECT_NAME}/${BRANCH}:$git_Build_id"
+# #     - docker rmi "${HARBOR_HOST}/${HARBOR_PROJECT}/${CI_PROJECT_NAME}/${BRANCH}:latest"
